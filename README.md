@@ -79,7 +79,7 @@ cd YOUR_REPO_NAME
 ### Вариант B: Локальное копирование
 
 ```bash
-git clone https://github.com/TserenTserenov/srd-template.git my-project
+git clone https://github.com/TserenTserenov/srt-template.git my-project
 cd my-project
 rm -rf .git
 git init
@@ -253,7 +253,7 @@ content/
 # Структура репозитория
 
 ```
-srd-template/
+srt-template/
 ├── README.md                    # Этот файл
 ├── CLAUDE.md                    # Инструкции для AI
 ├── CONTRIBUTING.md              # Правила участия

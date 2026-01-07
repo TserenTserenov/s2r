@@ -55,7 +55,7 @@ fpf_patterns:
 ## Верхнеуровневая структура
 
 ```
-srd-template/
+srt-template/
 ├── README.md                    # Главное описание проекта
 ├── CLAUDE.md                    # Инструкции для Claude Code
 ├── CONTRIBUTING.md              # Правила участия
