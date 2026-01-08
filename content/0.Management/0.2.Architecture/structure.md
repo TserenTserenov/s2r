@@ -4,7 +4,7 @@ status: active
 created: 2026-01-07
 updated: 2026-01-07
 system: "Management"
-role: "Architecture"
+role: "Инженер"
 layer: architecture
 scope: local-edge
 target_audience: [ai-agents, administrators, contributors]
@@ -79,13 +79,13 @@ srd-template/
 ```
 N.SystemName/
 ├── README.md                    # Обзор раздела
-├── N.1.Meaning/                 # Смысл: зачем?
+├── N.1.Meaning/                 # Предприниматель: зачем?
 │   ├── README.md                # Шаблон и описание
 │   └── [документы].md
-├── N.2.Architecture/            # Архитектура: как устроено?
+├── N.2.Architecture/            # Инженер: как устроено?
 │   ├── README.md
 │   └── [документы].md
-└── N.3.Operations/              # Операции: как работает?
+└── N.3.Operations/              # Менеджер: как работает?
     ├── README.md
     └── [документы].md
 ```
@@ -179,7 +179,7 @@ content/3.CreationSystem/3.3.Operations/ci-cd-pipeline.md
 |---------|------------------------|
 | **A.1 Holonic Foundation** | Каждая папка — холон (целое и часть) |
 | **A.1.1 Bounded Context** | Каждая папка — ограниченный контекст |
-| **A.2 Role Taxonomy** | Роли Meaning/Architecture/Operations |
+| **A.2 Role Taxonomy** | Роли Предприниматель/Инженер/Менеджер |
 | **A.7 Strict Distinction** | Чёткое разделение типов контента |
 
 ## Changelog

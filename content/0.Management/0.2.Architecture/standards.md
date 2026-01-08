@@ -4,7 +4,7 @@ status: active
 created: 2026-01-07
 updated: 2026-01-07
 system: "Management"
-role: "Architecture"
+role: "Инженер"
 layer: architecture
 scope: local-edge
 target_audience: [ai-agents, contributors]
@@ -64,7 +64,7 @@ status: active               # stub, draft, active, archived
 created: 2026-01-07          # Дата создания ISO 8601
 updated: 2026-01-07          # Дата обновления ISO 8601
 system: "Management"         # Management, Supersystem, TargetSystem, CreationSystem
-role: "Meaning"              # Meaning, Architecture, Operations
+role: "Предприниматель"      # Предприниматель, Инженер, Менеджер
 ---
 ```
 
@@ -98,7 +98,7 @@ status: active
 created: 2026-01-07
 updated: 2026-01-07
 system: "TargetSystem"
-role: "Architecture"
+role: "Инженер"
 layer: architecture
 scope: project
 target_audience: [developers, architects]
@@ -218,7 +218,7 @@ status: draft
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 system: "SystemName"
-role: "RoleName"
+role: "Предприниматель/Инженер/Менеджер"
 related: []
 fpf_principles: []
 ---
@@ -253,7 +253,7 @@ status: draft
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 system: "TargetSystem"
-role: "Architecture"
+role: "Инженер"
 ---
 
 # Спецификация: [Название]

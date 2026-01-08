@@ -4,7 +4,7 @@ status: active
 created: 2026-01-07
 updated: 2026-01-07
 system: "Management"
-role: "Operations"
+role: "Менеджер"
 layer: operations
 scope: local-edge
 target_audience: [ai-agents, contributors]

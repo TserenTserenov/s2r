@@ -1,6 +1,6 @@
 ---
 system: "TargetSystem"
-role: "Operations"
+role: "Менеджер"
 title: "Операции целевой системы: реализация и работа"
 date: "2026-01-07"
 tags: [target-system, operations, implementation]
@@ -11,7 +11,7 @@ fpf_principles:
   - continuous-validation
 ---
 
-# Операции целевой системы
+# Менеджер: Операции целевой системы
 
 ## Назначение раздела
 
@@ -30,7 +30,7 @@ fpf_principles:
 ```markdown
 ---
 system: "TargetSystem"
-role: "Operations"
+role: "Менеджер"
 title: "Название документа"
 date: "YYYY-MM-DD"
 tags: [operations, logic]

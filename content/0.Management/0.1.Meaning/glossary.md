@@ -4,7 +4,7 @@ status: active
 created: 2026-01-07
 updated: 2026-01-07
 system: "Management"
-role: "Meaning"
+role: "Предприниматель"
 layer: methodology
 scope: local-edge
 target_audience: [ai-agents, administrators, contributors]
@@ -35,7 +35,7 @@ fpf_patterns:
 Один из четырёх уровней организации: Management, Supersystem, TargetSystem, CreationSystem.
 
 #### Роль (Role)
-Одно из трёх измерений: Meaning (смысл), Architecture (архитектура), Operations (операции).
+Одно из трёх измерений: Предприниматель (смысл), Инженер (архитектура), Менеджер (операции).
 
 #### Ячейка матрицы
 Пересечение системы и роли. Пример: `2.TargetSystem/2.2.Architecture`.

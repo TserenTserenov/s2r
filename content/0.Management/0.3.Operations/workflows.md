@@ -4,7 +4,7 @@ status: active
 created: 2026-01-07
 updated: 2026-01-07
 system: "Management"
-role: "Operations"
+role: "Менеджер"
 layer: operations
 scope: local-edge
 target_audience: [contributors, administrators]
@@ -41,7 +41,7 @@ fpf_patterns:
 
 1. **Определить место в SRT-таблице**
    - Выбрать систему (0-3)
-   - Выбрать роль (Meaning/Architecture/Operations)
+   - Выбрать роль (Предприниматель/Инженер/Менеджер)
    - Проверить, нет ли похожего документа
 
 2. **Создать файл**

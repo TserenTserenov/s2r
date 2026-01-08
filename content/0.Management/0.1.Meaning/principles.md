@@ -4,7 +4,7 @@ status: active
 created: 2026-01-07
 updated: 2026-01-07
 system: "Management"
-role: "Meaning"
+role: "Предприниматель"
 layer: methodology
 scope: local-edge
 target_audience: [ai-agents, administrators, contributors]
@@ -59,7 +59,7 @@ fpf_patterns:
 
 **Применение:**
 - Указывай `type` в frontmatter
-- Размещай в соответствующей роли (Meaning/Architecture/Operations)
+- Размещай в соответствующей роли (Предприниматель/Инженер/Менеджер)
 
 ### 3. Роль человека и AI
 

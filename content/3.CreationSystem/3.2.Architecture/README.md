@@ -1,6 +1,6 @@
 ---
 system: "CreationSystem"
-role: "Architecture"
+role: "Инженер"
 title: "Архитектура системы создания: инструменты"
 date: "2026-01-07"
 tags: [creation-system, architecture, tools]
@@ -11,7 +11,7 @@ fpf_principles:
   - clarity
 ---
 
-# Архитектура системы создания
+# Инженер: Архитектура системы создания
 
 ## Назначение раздела
 
@@ -30,7 +30,7 @@ fpf_principles:
 ```markdown
 ---
 system: "CreationSystem"
-role: "Architecture"
+role: "Инженер"
 title: "Название документа"
 date: "YYYY-MM-DD"
 tags: [tools, infrastructure]

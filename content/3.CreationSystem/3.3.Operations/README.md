@@ -1,6 +1,6 @@
 ---
 system: "CreationSystem"
-role: "Operations"
+role: "Менеджер"
 title: "Операции системы создания: методология разработки"
 date: "2026-01-07"
 tags: [creation-system, operations, methodology]
@@ -12,7 +12,7 @@ fpf_principles:
   - continuous-validation
 ---
 
-# Операции системы создания
+# Менеджер: Операции системы создания
 
 ## Назначение раздела
 
@@ -31,7 +31,7 @@ fpf_principles:
 ```markdown
 ---
 system: "CreationSystem"
-role: "Operations"
+role: "Менеджер"
 title: "Название документа"
 date: "YYYY-MM-DD"
 tags: [process, methodology]

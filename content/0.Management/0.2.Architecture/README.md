@@ -1,6 +1,6 @@
 ---
 system: "Management"
-role: "Architecture"
+role: "Инженер"
 title: "Архитектура управления: структура и роли"
 date: "2026-01-07"
 tags: [management, architecture, structure, roles]
@@ -15,7 +15,7 @@ fpf_principles:
   - srd-structure
 ---
 
-# Архитектура управления (0.2.Architecture)
+# Инженер: Архитектура управления (0.2.Architecture)
 
 ## Назначение раздела
 
@@ -53,7 +53,7 @@ status: draft
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 system: "Management"
-role: "Architecture"
+role: "Инженер"
 related: []
 fpf_principles: []
 ---

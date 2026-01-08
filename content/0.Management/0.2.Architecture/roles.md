@@ -4,7 +4,7 @@ status: active
 created: 2026-01-07
 updated: 2026-01-07
 system: "Management"
-role: "Architecture"
+role: "Инженер"
 layer: architecture
 scope: local-edge
 target_audience: [administrators, contributors]

@@ -1,6 +1,6 @@
 ---
 system: "Supersystem"
-role: "Architecture"
+role: "Инженер"
 title: "Архитектура надсистемы: внешнее окружение"
 date: "2026-01-07"
 tags: [supersystem, architecture, environment]
@@ -11,7 +11,7 @@ fpf_principles:
   - clarity
 ---
 
-# Архитектура надсистемы
+# Инженер: Архитектура надсистемы
 
 ## Назначение раздела
 
@@ -30,7 +30,7 @@ fpf_principles:
 ```markdown
 ---
 system: "Supersystem"
-role: "Architecture"
+role: "Инженер"
 title: "Название документа"
 date: "YYYY-MM-DD"
 tags: [supersystem, integration]

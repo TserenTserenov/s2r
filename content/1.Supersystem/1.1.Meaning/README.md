@@ -1,6 +1,6 @@
 ---
 system: "Supersystem"
-role: "Meaning"
+role: "Предприниматель"
 title: "Смысл надсистемы: контекст и окружение"
 date: "2026-01-07"
 tags: [supersystem, meaning, context, market]
@@ -11,7 +11,7 @@ fpf_principles:
   - practicality
 ---
 
-# Смысл надсистемы
+# Предприниматель: Смысл надсистемы
 
 ## Назначение раздела
 
@@ -30,7 +30,7 @@ fpf_principles:
 ```markdown
 ---
 system: "Supersystem"
-role: "Meaning"
+role: "Предприниматель"
 title: "Название документа"
 date: "YYYY-MM-DD"
 tags: [supersystem, context]

@@ -1,6 +1,6 @@
 ---
 system: "Management"
-role: "Meaning"
+role: "Предприниматель"
 title: "Смысл управления: логика и принципы хранилища"
 date: "2026-01-07"
 tags: [management, meaning, principles, glossary]
@@ -15,7 +15,7 @@ fpf_principles:
   - systemic-thinking
 ---
 
-# Смысл управления (0.1.Meaning)
+# Предприниматель: Смысл управления (0.1.Meaning)
 
 ## Назначение раздела
 
@@ -52,7 +52,7 @@ status: draft
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 system: "Management"
-role: "Meaning"
+role: "Предприниматель"
 related: []
 fpf_principles: []
 ---

@@ -1,6 +1,6 @@
 ---
 system: "TargetSystem"
-role: "Architecture"
+role: "Инженер"
 title: "Архитектура целевой системы: структура продукта"
 date: "2026-01-07"
 tags: [target-system, architecture, design]
@@ -11,7 +11,7 @@ fpf_principles:
   - clarity
 ---
 
-# Архитектура целевой системы
+# Инженер: Архитектура целевой системы
 
 ## Назначение раздела
 
@@ -30,7 +30,7 @@ fpf_principles:
 ```markdown
 ---
 system: "TargetSystem"
-role: "Architecture"
+role: "Инженер"
 title: "Название документа"
 date: "YYYY-MM-DD"
 tags: [architecture, design]

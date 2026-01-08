@@ -1,6 +1,6 @@
 ---
 system: "Management"
-role: "Operations"
+role: "Менеджер"
 title: "Операции управления: процессы и практики"
 date: "2026-01-07"
 tags: [management, operations, processes, workflows]
@@ -14,7 +14,7 @@ fpf_principles:
   - incremental-improvement
 ---
 
-# Операции управления (0.3.Operations)
+# Менеджер: Операции управления (0.3.Operations)
 
 ## Назначение раздела
 
@@ -52,7 +52,7 @@ status: draft
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 system: "Management"
-role: "Operations"
+role: "Менеджер"
 related: []
 fpf_principles: []
 ---

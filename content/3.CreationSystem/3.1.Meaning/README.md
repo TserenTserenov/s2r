@@ -1,6 +1,6 @@
 ---
 system: "CreationSystem"
-role: "Meaning"
+role: "Предприниматель"
 title: "Смысл системы создания: принципы разработки"
 date: "2026-01-07"
 tags: [creation-system, meaning, principles]
@@ -11,7 +11,7 @@ fpf_principles:
   - clarity
 ---
 
-# Смысл системы создания
+# Предприниматель: Смысл системы создания
 
 ## Назначение раздела
 
@@ -30,7 +30,7 @@ fpf_principles:
 ```markdown
 ---
 system: "CreationSystem"
-role: "Meaning"
+role: "Предприниматель"
 title: "Название документа"
 date: "YYYY-MM-DD"
 tags: [principles, development]

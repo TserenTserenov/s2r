@@ -1,6 +1,6 @@
 ---
 system: "Supersystem"
-role: "Operations"
+role: "Менеджер"
 title: "Операции надсистемы: взаимодействие с окружением"
 date: "2026-01-07"
 tags: [supersystem, operations, interactions]
@@ -11,7 +11,7 @@ fpf_principles:
   - idempotency
 ---
 
-# Операции надсистемы
+# Менеджер: Операции надсистемы
 
 ## Назначение раздела
 
@@ -30,7 +30,7 @@ fpf_principles:
 ```markdown
 ---
 system: "Supersystem"
-role: "Operations"
+role: "Менеджер"
 title: "Название документа"
 date: "YYYY-MM-DD"
 tags: [supersystem, process]

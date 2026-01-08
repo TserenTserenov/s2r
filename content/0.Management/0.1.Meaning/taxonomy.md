@@ -4,7 +4,7 @@ status: active
 created: 2026-01-07
 updated: 2026-01-07
 system: "Management"
-role: "Meaning"
+role: "Предприниматель"
 layer: methodology
 scope: local-edge
 target_audience: [ai-agents, administrators, contributors]
@@ -39,9 +39,9 @@ fpf_patterns:
 
 | Код | Роль | Вопрос | Описание |
 |-----|------|--------|----------|
-| 1 | Meaning | Зачем? | Цели, ценности, требования |
-| 2 | Architecture | Как устроено? | Структура, компоненты |
-| 3 | Operations | Как работает? | Процессы, действия |
+| 1 | Предприниматель | Зачем? | Цели, ценности, требования |
+| 2 | Инженер | Как устроено? | Структура, компоненты |
+| 3 | Менеджер | Как работает? | Процессы, действия |
 
 ### 3. По типу документа
 
@@ -126,9 +126,9 @@ evidence, evolution, assurance
 
 | Роль | Типичные теги |
 |------|---------------|
-| Meaning | goal, value, requirement, vision, mission |
-| Architecture | structure, component, interface, schema |
-| Operations | process, workflow, action, monitoring |
+| Предприниматель | goal, value, requirement, vision, mission |
+| Инженер | structure, component, interface, schema |
+| Менеджер | process, workflow, action, monitoring |
 
 ## Использование в frontmatter
 
@@ -137,7 +137,7 @@ evidence, evolution, assurance
 type: doc
 status: active
 system: "TargetSystem"
-role: "Architecture"
+role: "Инженер"
 layer: architecture
 scope: project
 tags:

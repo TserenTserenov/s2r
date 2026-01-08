@@ -1,6 +1,6 @@
 ---
 system: "TargetSystem"
-role: "Meaning"
+role: "Предприниматель"
 title: "Смысл целевой системы: требования и ценность"
 date: "2026-01-07"
 tags: [target-system, meaning, requirements]
@@ -11,7 +11,7 @@ fpf_principles:
   - clarity
 ---
 
-# Смысл целевой системы
+# Предприниматель: Смысл целевой системы
 
 ## Назначение раздела
 
@@ -30,7 +30,7 @@ fpf_principles:
 ```markdown
 ---
 system: "TargetSystem"
-role: "Meaning"
+role: "Предприниматель"
 title: "Название документа"
 date: "YYYY-MM-DD"
 tags: [requirements, features]

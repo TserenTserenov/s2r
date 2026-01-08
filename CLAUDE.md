@@ -68,7 +68,7 @@
 SRT организует знания через **таблицу 3×3** (9 семейств документов F1-F9) + **метасемейство F0** (управление хранилищем).
 
 ```
-                     Meaning          Architecture      Operations
+                     Предприниматель  Инженер           Менеджер
                      (Зачем?)         (Как устроено?)   (Как работает?)
 ┌────────────────────────────────────────────────────────────────────┐
 │ Supersystem        F1               F2                F3           │
@@ -97,9 +97,9 @@ SRT организует знания через **таблицу 3×3** (9 се
 
 | Роль | Подпапка | Вопрос | FPF-связь |
 |------|----------|--------|-----------|
-| **Meaning** | `X.1.Meaning/` | Зачем? | U.RoleAssignment, цели |
-| **Architecture** | `X.2.Architecture/` | Как устроено? | U.System, структура |
-| **Operations** | `X.3.Operations/` | Как работает? | U.Work, процессы |
+| **Предприниматель** | `X.1.Meaning/` | Зачем? | U.RoleAssignment, цели |
+| **Инженер** | `X.2.Architecture/` | Как устроено? | U.System, структура |
+| **Менеджер** | `X.3.Operations/` | Как работает? | U.Work, процессы |
 
 ## ОБЯЗАТЕЛЬНО: Работа с 0.Management/
 
@@ -132,16 +132,16 @@ SRT организует знания через **таблицу 3×3** (9 се
 
 ```
 content/0.Management/
-├── 0.1.Meaning/              # Логика хранилища
+├── 0.1.Meaning/              # Предприниматель (логика хранилища)
 │   ├── document-families.md  # ⭐ Модель семейств F0-F9
 │   ├── principles.md         # Принципы организации
 │   ├── glossary.md           # Глоссарий терминов
 │   └── taxonomy.md           # Классификация
-├── 0.2.Architecture/         # Структура хранилища
+├── 0.2.Architecture/         # Инженер (структура хранилища)
 │   ├── structure.md          # Структура папок
 │   ├── roles.md              # Роли и ответственность
 │   └── standards.md          # ⭐ Стандарты оформления
-├── 0.3.Operations/           # Процессы работы
+├── 0.3.Operations/           # Менеджер (процессы работы)
 │   ├── workflows.md          # Рабочие процессы
 │   ├── claude-fpf.md         # Интеграция Claude + FPF
 │   └── document-creation.md  # ⭐ Создание документов
@@ -180,7 +180,7 @@ status: active                   # stub, draft, active, archived
 created: 2026-01-07
 updated: 2026-01-07
 system: "Management"             # Management/Supersystem/TargetSystem/CreationSystem
-role: "Meaning"                  # Meaning/Architecture/Operations
+role: "Предприниматель"          # Предприниматель/Инженер/Менеджер
 layer: methodology               # methodology, architecture, operations
 scope: local-edge                # local-edge, project, ecosystem
 target_audience: [developers, managers]
