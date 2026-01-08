@@ -1,5 +1,5 @@
 ---
-system: "TargetSystem"
+system: "System-of-Interest"
 role: "Инженер"
 title: "Архитектура целевой системы: структура продукта"
 date: "2026-01-07"
@@ -29,7 +29,7 @@ fpf_principles:
 
 ```markdown
 ---
-system: "TargetSystem"
+system: "System-of-Interest"
 role: "Инженер"
 title: "Название документа"
 date: "YYYY-MM-DD"

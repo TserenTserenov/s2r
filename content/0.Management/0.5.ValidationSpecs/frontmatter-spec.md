@@ -53,7 +53,7 @@ fpf_patterns:
 ### Правило 4: Обязательное поле `system`
 
 - **Условие:** Файл имеет frontmatter
-- **Ожидание:** Поле `system` присутствует и имеет значение из списка: `Management`, `Supersystem`, `TargetSystem`, `CreationSystem`
+- **Ожидание:** Поле `system` присутствует и имеет значение из списка: `Management`, `Suprasystem`, `System-of-Interest`, `Constructor`
 - **Ошибка:** `SYSTEM_INVALID: Поле system отсутствует или имеет недопустимое значение`
 - **Критичность:** critical
 
@@ -87,7 +87,7 @@ fpf_patterns:
   "failed": 3,
   "errors": [
     {
-      "file": "content/2.TargetSystem/2.1.Meaning/doc.md",
+      "file": "content/2.System-of-Interest/2.1.Meaning/doc.md",
       "rule": "TYPE_INVALID",
       "message": "Поле type отсутствует",
       "criticality": "critical"

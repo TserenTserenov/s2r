@@ -74,14 +74,14 @@ First Principles Framework — это набор базовых, фундаме�
 **Обоснование:** SRT обеспечивает структурированное, но гибкое размещение знаний. Каждый документ имеет чёткое место.
 
 **Применение:**
-- Определить систему: Management/Supersystem/TargetSystem/CreationSystem
+- Определить систему: Management/Suprasystem/System-of-Interest/Constructor
 - Определить роль: Meaning/Architecture/Operations
 - Разместить в `content/{N}.{System}/{N}.{M}.{Role}/`
 
 **Примеры:**
-- Требования продукта → `2.TargetSystem/2.1.Meaning/`
-- Архитектура API → `2.TargetSystem/2.2.Architecture/`
-- Процесс деплоя → `3.CreationSystem/3.3.Operations/`
+- Требования продукта → `2.System-of-Interest/2.1.Meaning/`
+- Архитектура API → `2.System-of-Interest/2.2.Architecture/`
+- Процесс деплоя → `3.Constructor/3.3.Operations/`
 
 #### metadata-first
 
@@ -97,7 +97,7 @@ First Principles Framework — это набор базовых, фундаме�
 **Примеры:**
 ```yaml
 ---
-system: "TargetSystem"
+system: "System-of-Interest"
 role: "Architecture"
 title: "Database Schema"
 date: "2026-01-07"
@@ -222,11 +222,11 @@ fpf_principles:
 Принципы FPF применяются во всех ячейках SRT-таблицы:
 
 ```
-                 Meaning          Architecture      Operations
-Management       [FPF]            [FPF]             [FPF]
-Supersystem      [FPF]            [FPF]             [FPF]
-TargetSystem     [FPF]            [FPF]             [FPF]
-CreationSystem   [FPF]            [FPF]             [FPF]
+                      Meaning          Architecture      Operations
+Management            [FPF]            [FPF]             [FPF]
+Suprasystem           [FPF]            [FPF]             [FPF]
+System-of-Interest    [FPF]            [FPF]             [FPF]
+Constructor           [FPF]            [FPF]             [FPF]
 ```
 
 Каждый документ должен:

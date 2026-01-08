@@ -1,5 +1,5 @@
 ---
-system: "CreationSystem"
+system: "Constructor"
 role: "Предприниматель"
 title: "Смысл системы создания: принципы разработки"
 date: "2026-01-07"
@@ -29,7 +29,7 @@ fpf_principles:
 
 ```markdown
 ---
-system: "CreationSystem"
+system: "Constructor"
 role: "Предприниматель"
 title: "Название документа"
 date: "YYYY-MM-DD"
