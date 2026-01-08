@@ -1,27 +1,25 @@
 ---
-type: doc
-status: active
-created: 2026-01-07
-updated: 2026-01-07
 system: "Management"
-role: "Archive"
-layer: operations
-scope: local-edge
-target_audience: [administrators]
+title: "Архив"
+date: "2026-01-08"
+tags: [management, archive, history]
+status: "active"
 related:
   - ../README.md
-  - ../0.9.Incoming/README.md
+  - "../0.9. Входящие/README.md"
 fpf_principles:
   - incremental-improvement
 fpf_patterns:
   - A.4      # Open-Ended Evolution
 ---
 
-# Архив (0.99.Archive)
+# 0.99. Архив
 
 ## Назначение раздела
 
 Хранилище **устаревших документов** и материалов, которые больше не актуальны, но могут понадобиться для истории.
+
+**Ключевой вопрос:** Что было раньше?
 
 ## Правила архивации
 
@@ -35,14 +33,14 @@ fpf_patterns:
 ### Процесс архивации
 
 1. Изменить `status: archived` в исходном файле
-2. Переместить файл в `0.99.Archive/`
+2. Переместить файл в Архив
 3. Добавить запись о причине архивации
 4. Обновить ссылки в связанных документах
 
 ### Структура архива
 
 ```
-0.99.Archive/
+0.99. Архив/
 ├── README.md
 ├── 2026-01/                    # По месяцам
 │   ├── old-requirements.md
@@ -60,9 +58,8 @@ status: archived
 created: YYYY-MM-DD
 archived: YYYY-MM-DD
 archived_reason: "Заменён документом X"
-original_path: "content/2.TargetSystem/..."
+original_path: "content/2.System-of-Interest/..."
 system: "Management"
-role: "Archive"
 ---
 
 # [Оригинальное название] [ARCHIVED]
@@ -101,4 +98,4 @@ role: "Archive"
 ## Связанные документы
 
 - [Раздел Management](../README.md)
-- [Входящие](../0.9.Incoming/README.md)
+- [Входящие](../0.9.%20Входящие/README.md)

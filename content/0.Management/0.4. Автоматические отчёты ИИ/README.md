@@ -1,29 +1,27 @@
 ---
-type: doc
-status: active
-created: 2026-01-07
-updated: 2026-01-07
 system: "Management"
-role: "AutoReports"
-layer: operations
-scope: local-edge
-target_audience: [administrators, ai-agents]
+title: "Автоматические отчёты ИИ"
+date: "2026-01-08"
+tags: [management, ai, reports, automation]
+status: "active"
 related:
   - ../README.md
-  - ../0.5.ValidationSpecs/README.md
 fpf_principles:
-  - continuous-validation
+  - automation
+  - transparency
 fpf_patterns:
   - B.3      # Trust Calculus
 ---
 
-# Автоматические отчёты ИИ (0.4.AutoReports)
+# 0.4. Автоматические отчёты ИИ
 
 ## Назначение раздела
 
-Здесь размещаются **автоматически генерируемые отчёты** о состоянии хранилища, качестве документов и результатах проверок.
+Здесь размещаются **автоматически генерируемые отчёты** AI-агентов о состоянии хранилища, качестве документов и результатах проверок.
 
-## Содержимое раздела
+**Ключевой вопрос:** Что сделал AI? Какое состояние хранилища?
+
+## Типы отчётов
 
 | Тип отчёта | Описание | Периодичность |
 |------------|----------|---------------|
@@ -41,7 +39,6 @@ status: active
 created: YYYY-MM-DD
 generated_by: ai-agent
 system: "Management"
-role: "AutoReports"
 ---
 
 # Отчёт: [Название]
@@ -66,10 +63,10 @@ role: "AutoReports"
 
 ```
 Сгенерируй отчёт о [качестве документов / покрытии матрицы / битых ссылках]
-и сохрани в 0.4.AutoReports/
+и сохрани в "0.4. Автоматические отчёты ИИ/"
 ```
 
 ## Связанные документы
 
 - [Раздел Management](../README.md)
-- [ТЗ для автопроверки](../0.5.ValidationSpecs/README.md)
+- [Процессы работы](../0.2.%20Процессы%20работы%20с%20хранилищем/README.md)

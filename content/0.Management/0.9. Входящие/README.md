@@ -1,27 +1,25 @@
 ---
-type: doc
-status: active
-created: 2026-01-07
-updated: 2026-01-07
 system: "Management"
-role: "Incoming"
-layer: operations
-scope: local-edge
-target_audience: [contributors]
+title: "Входящие"
+date: "2026-01-08"
+tags: [management, inbox, incoming, triage]
+status: "active"
 related:
   - ../README.md
-  - ../0.99.Archive/README.md
+  - "../0.99. Архив/README.md"
 fpf_principles:
   - practicality
 fpf_patterns:
   - A.4      # Open-Ended Evolution
 ---
 
-# Входящие (0.9.Incoming)
+# 0.9. Входящие
 
 ## Назначение раздела
 
 **Inbox** для новых идей, черновиков и материалов, которые ещё не нашли своё место в структуре хранилища.
+
+**Ключевой вопрос:** Что нужно обработать?
 
 ## Правила использования
 
@@ -36,7 +34,7 @@ fpf_patterns:
 ### Что НЕ помещать
 
 ❌ Готовые документы (→ в соответствующую ячейку)
-❌ Устаревшие материалы (→ в 0.99.Archive)
+❌ Устаревшие материалы (→ в Архив)
 ❌ Секреты и приватные данные
 
 ## Формат входящих
@@ -47,9 +45,8 @@ type: doc
 status: stub
 created: YYYY-MM-DD
 system: "Management"
-role: "Incoming"
 target_system: "?"        # Предполагаемая система
-target_role: "?"          # Предполагаемая роль
+target_family: "?"        # Предполагаемое семейство F1-F9
 ---
 
 # [Рабочее название]
@@ -91,13 +88,12 @@ target_role: "?"          # Предполагаемая роль
 1. Просмотреть все входящие
 2. Для каждого определить действие:
    - **Оформить** → перенести в целевую папку
-   - **Отложить** → оставить в Incoming
+   - **Отложить** → оставить в Входящие
    - **Отклонить** → удалить
-   - **Архивировать** → перенести в 0.99.Archive
-3. Цель: не более 10 элементов в Incoming
+   - **Архивировать** → перенести в Архив
+3. Цель: не более 10 элементов в Входящие
 
 ## Связанные документы
 
 - [Раздел Management](../README.md)
-- [Архив](../0.99.Archive/README.md)
-- [Процессы работы](../0.3.Operations/workflows.md)
+- [Архив](../0.99.%20Архив/README.md)

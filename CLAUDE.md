@@ -122,46 +122,46 @@ SRT организует знания через **таблицу 3×3** (9 се
 
 | Задача | Обязательные источники из 0.Management/ |
 |--------|----------------------------------------|
-| **Создание документа** | `0.1.Meaning/document-families.md`, `0.2.Architecture/standards.md` |
-| **Определение места** | `0.1.Meaning/document-families.md` — модель семейств F0-F9 |
-| **Оформление frontmatter** | `0.2.Architecture/standards.md`, `0.5.ValidationSpecs/frontmatter-spec.md` |
-| **Терминология** | `0.1.Meaning/glossary.md` |
-| **Связи документов** | `0.1.Meaning/principles.md` |
-| **Процесс создания** | `0.3.Operations/document-creation.md` |
+| **Создание документа** | `0.1. Логика хранилища и знаний/document-families.md`, `0.2. Процессы работы с хранилищем/standards.md` |
+| **Определение места** | `0.1. Логика хранилища и знаний/document-families.md` — модель семейств F0-F9 |
+| **Оформление frontmatter** | `0.2. Процессы работы с хранилищем/standards.md`, `0.2. Процессы работы с хранилищем/frontmatter-spec.md` |
+| **Терминология** | `0.1. Логика хранилища и знаний/glossary.md` |
+| **Связи документов** | `0.1. Логика хранилища и знаний/principles.md` |
+| **Процесс создания** | `0.2. Процессы работы с хранилищем/document-creation.md` |
 
 ### Механизм работы Claude с 0.Management/
 
 **Алгоритм перед созданием документа:**
 
-1. **Прочитай** `0.1.Meaning/document-families.md` — определи семейство (F0-F9)
-2. **Прочитай** `0.2.Architecture/standards.md` — получи стандарты оформления
-3. **Прочитай** `0.1.Meaning/glossary.md` — используй правильную терминологию
+1. **Прочитай** `0.1. Логика хранилища и знаний/document-families.md` — определи семейство (F0-F9)
+2. **Прочитай** `0.2. Процессы работы с хранилищем/standards.md` — получи стандарты оформления
+3. **Прочитай** `0.1. Логика хранилища и знаний/glossary.md` — используй правильную терминологию
 4. **Создай** документ с правильным frontmatter и в правильной папке
-5. **Проверь** по `0.5.ValidationSpecs/frontmatter-spec.md`
+5. **Проверь** по `0.2. Процессы работы с хранилищем/frontmatter-spec.md`
 
 ### Структура 0.Management/ (F0)
 
+> **Важно:** F0 (Management) не делится по ролям Предприниматель/Инженер/Менеджер, а организован по функциональным областям.
+
 ```
 content/0.Management/
-├── 0.1.Meaning/              # Предприниматель (логика хранилища)
-│   ├── document-families.md  # ⭐ Модель семейств F0-F9
-│   ├── principles.md         # Принципы организации
-│   ├── glossary.md           # Глоссарий терминов
-│   └── taxonomy.md           # Классификация
-├── 0.2.Architecture/         # Инженер (структура хранилища)
-│   ├── structure.md          # Структура папок
-│   ├── roles.md              # Роли и ответственность
-│   └── standards.md          # ⭐ Стандарты оформления
-├── 0.3.Operations/           # Менеджер (процессы работы)
-│   ├── workflows.md          # Рабочие процессы
-│   ├── claude-fpf.md         # Интеграция Claude + FPF
-│   └── document-creation.md  # ⭐ Создание документов
-├── 0.4.AutoReports/          # Автоотчёты AI
-├── 0.5.ValidationSpecs/      # ТЗ для проверок
-│   └── frontmatter-spec.md   # ⭐ Спецификация frontmatter
-├── 0.6.AccumulationGuide/    # Процесс накопления
-├── 0.9.Incoming/             # Входящие идеи
-└── 0.99.Archive/             # Архив
+├── 0.1. Логика хранилища и знаний/    # Онтология
+│   ├── document-families.md           # ⭐ Модель семейств F0-F9
+│   ├── principles.md                  # Принципы организации
+│   ├── glossary.md                    # Глоссарий терминов
+│   └── taxonomy.md                    # Классификация
+├── 0.2. Процессы работы с хранилищем/ # Операции и стандарты
+│   ├── structure.md                   # Структура папок
+│   ├── standards.md                   # ⭐ Стандарты оформления
+│   ├── roles.md                       # Роли и ответственность
+│   ├── document-creation.md           # ⭐ Создание документов
+│   ├── workflows.md                   # Рабочие процессы
+│   ├── frontmatter-spec.md            # ⭐ Спецификация frontmatter
+│   └── claude-fpf.md                  # Интеграция Claude + FPF
+├── 0.3. Планы и совещания/            # Координация
+├── 0.4. Автоматические отчёты ИИ/     # Автоотчёты AI
+├── 0.9. Входящие/                     # Входящие идеи
+└── 0.99. Архив/                       # Архив
 ```
 
 ### Команда для автозагрузки контекста
@@ -170,12 +170,12 @@ content/0.Management/
 
 ```
 # Минимальный контекст (обязательно)
-Read: content/0.Management/0.1.Meaning/document-families.md
-Read: content/0.Management/0.2.Architecture/standards.md
+Read: content/0.Management/0.1. Логика хранилища и знаний/document-families.md
+Read: content/0.Management/0.2. Процессы работы с хранилищем/standards.md
 
 # Расширенный контекст (по необходимости)
-Read: content/0.Management/0.1.Meaning/glossary.md
-Read: content/0.Management/0.3.Operations/document-creation.md
+Read: content/0.Management/0.1. Логика хранилища и знаний/glossary.md
+Read: content/0.Management/0.2. Процессы работы с хранилищем/document-creation.md
 ```
 
 ---
@@ -323,13 +323,13 @@ content/{N}.{System}/{N}.{M}.{Role}/document-name.md
 
 ### Главные документы
 - [README.md](README.md) — описание SRT-метода
-- [Модель семейств документов](content/0.Management/0.1.Meaning/document-families.md) — F0-F9
+- [Модель семейств документов](content/0.Management/0.1.%20Логика%20хранилища%20и%20знаний/document-families.md) — F0-F9
 
 ### 0.Management/ (F0)
-- [Принципы](content/0.Management/0.1.Meaning/principles.md)
-- [Глоссарий](content/0.Management/0.1.Meaning/glossary.md)
-- [Стандарты](content/0.Management/0.2.Architecture/standards.md)
-- [Создание документов](content/0.Management/0.3.Operations/document-creation.md)
+- [Принципы](content/0.Management/0.1.%20Логика%20хранилища%20и%20знаний/principles.md)
+- [Глоссарий](content/0.Management/0.1.%20Логика%20хранилища%20и%20знаний/glossary.md)
+- [Стандарты](content/0.Management/0.2.%20Процессы%20работы%20с%20хранилищем/standards.md)
+- [Создание документов](content/0.Management/0.2.%20Процессы%20работы%20с%20хранилищем/document-creation.md)
 
 ### FPF
 - [.fpf/INDEX.md](.fpf/INDEX.md) — локальные принципы проекта
