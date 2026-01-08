@@ -63,7 +63,7 @@ type: doc                    # doc, spec, process, report, template
 status: active               # stub, draft, active, archived
 created: 2026-01-07          # Дата создания ISO 8601
 updated: 2026-01-07          # Дата обновления ISO 8601
-system: "Management"         # Management, Supersystem, TargetSystem, CreationSystem
+system: "Management"         # Management, Suprasystem, System-of-Interest, Constructor
 role: "Предприниматель"      # Предприниматель, Инженер, Менеджер
 ---
 ```
@@ -97,7 +97,7 @@ type: spec
 status: active
 created: 2026-01-07
 updated: 2026-01-07
-system: "TargetSystem"
+system: "System-of-Interest"
 role: "Инженер"
 layer: architecture
 scope: project
@@ -252,7 +252,7 @@ type: spec
 status: draft
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-system: "TargetSystem"
+system: "System-of-Interest"
 role: "Инженер"
 ---
 

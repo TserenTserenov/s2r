@@ -32,18 +32,18 @@ fpf_patterns:
 
 ```
                     ┌─────────────────────────┐
-                    │     1. Supersystem      │
-                    │    (Внешняя среда)      │
+                    │     1. Suprasystem      │
+                    │    (Надсистема)         │
                     └───────────┬─────────────┘
                                 │
                     ┌───────────▼─────────────┐
-                    │    2. TargetSystem      │
-                    │  (Целевой продукт)      │
+                    │  2. System-of-Interest  │
+                    │  (Целевая система)      │
                     └───────────┬─────────────┘
                                 │
                     ┌───────────▼─────────────┐
-                    │   3. CreationSystem     │
-                    │  (Система создания)     │
+                    │     3. Constructor      │
+                    │  (Система-конструктор)  │
                     └─────────────────────────┘
 
         ┌───────────────────────────────────────────────┐
@@ -51,6 +51,8 @@ fpf_patterns:
         │        (Метасистема хранилища)                │
         └───────────────────────────────────────────────┘
 ```
+
+> **Терминология (из FPF):** Suprasystem, System-of-Interest (SoI), Constructor
 
 ## Верхнеуровневая структура
 
@@ -67,9 +69,9 @@ srd-template/
 │
 └── content/                     # Контент по методу SRT
     ├── 0.Management/            # Метасистема
-    ├── 1.Supersystem/           # Надсистема
-    ├── 2.TargetSystem/          # Целевая система
-    └── 3.CreationSystem/        # Система создания
+    ├── 1.Suprasystem/           # Надсистема
+    ├── 2.System-of-Interest/    # Целевая система
+    └── 3.Constructor/           # Система-конструктор
 ```
 
 ## Структура раздела (системы)
@@ -112,17 +114,17 @@ content/
 │       ├── claude-fpf.md        # Интеграция Claude и FPF
 │       └── document-creation.md # Создание документов
 │
-├── 1.Supersystem/
+├── 1.Suprasystem/
 │   ├── 1.1.Meaning/             # Контекст, рынок
 │   ├── 1.2.Architecture/        # Окружение
 │   └── 1.3.Operations/          # Взаимодействие
 │
-├── 2.TargetSystem/
+├── 2.System-of-Interest/
 │   ├── 2.1.Meaning/             # Требования
 │   ├── 2.2.Architecture/        # Архитектура продукта
 │   └── 2.3.Operations/          # Реализация
 │
-└── 3.CreationSystem/
+└── 3.Constructor/
     ├── 3.1.Meaning/             # Принципы разработки
     ├── 3.2.Architecture/        # Инструменты
     └── 3.3.Operations/          # Методология
@@ -134,7 +136,7 @@ content/
 
 | Элемент | Формат | Пример |
 |---------|--------|--------|
-| Система | `N.SystemName` | `2.TargetSystem` |
+| Система | `N.SystemName` | `2.System-of-Interest` |
 | Роль | `N.M.RoleName` | `2.1.Meaning` |
 
 ### Файлы
@@ -150,8 +152,8 @@ content/
 
 ```
 content/0.Management/0.1.Meaning/principles.md
-content/2.TargetSystem/2.2.Architecture/api-schema.md
-content/3.CreationSystem/3.3.Operations/ci-cd-pipeline.md
+content/2.System-of-Interest/2.2.Architecture/api-schema.md
+content/3.Constructor/3.3.Operations/ci-cd-pipeline.md
 ```
 
 ## Таблица подразделов
@@ -161,15 +163,15 @@ content/3.CreationSystem/3.3.Operations/ci-cd-pipeline.md
 | 0.1 | Management/Meaning | Зачем управление? | Администраторы |
 | 0.2 | Management/Architecture | Как устроено? | Администраторы |
 | 0.3 | Management/Operations | Как управлять? | Все участники |
-| 1.1 | Supersystem/Meaning | Зачем контекст? | Аналитики |
-| 1.2 | Supersystem/Architecture | Как устроено окружение? | Аналитики |
-| 1.3 | Supersystem/Operations | Как взаимодействуем? | Все участники |
-| 2.1 | TargetSystem/Meaning | Какие требования? | Продуктовые менеджеры |
-| 2.2 | TargetSystem/Architecture | Как устроен продукт? | Архитекторы |
-| 2.3 | TargetSystem/Operations | Как реализуем? | Разработчики |
-| 3.1 | CreationSystem/Meaning | Какие принципы? | Техлиды |
-| 3.2 | CreationSystem/Architecture | Какие инструменты? | Разработчики |
-| 3.3 | CreationSystem/Operations | Какая методология? | Все участники |
+| 1.1 | Suprasystem/Meaning | Зачем контекст? | Аналитики |
+| 1.2 | Suprasystem/Architecture | Как устроено окружение? | Аналитики |
+| 1.3 | Suprasystem/Operations | Как взаимодействуем? | Все участники |
+| 2.1 | System-of-Interest/Meaning | Какие требования? | Продуктовые менеджеры |
+| 2.2 | System-of-Interest/Architecture | Как устроен продукт? | Архитекторы |
+| 2.3 | System-of-Interest/Operations | Как реализуем? | Разработчики |
+| 3.1 | Constructor/Meaning | Какие принципы? | Техлиды |
+| 3.2 | Constructor/Architecture | Какие инструменты? | Разработчики |
+| 3.3 | Constructor/Operations | Какая методология? | Все участники |
 
 ## FPF-связь
 

@@ -1,9 +1,9 @@
 ---
-system: "Supersystem"
+system: "Suprasystem"
 role: "Предприниматель"
 title: "Смысл надсистемы: контекст и окружение"
 date: "2026-01-07"
-tags: [supersystem, meaning, context, market]
+tags: [suprasystem, meaning, context, market]
 status: "template"
 related: []
 fpf_principles:
@@ -29,11 +29,11 @@ fpf_principles:
 
 ```markdown
 ---
-system: "Supersystem"
+system: "Suprasystem"
 role: "Предприниматель"
 title: "Название документа"
 date: "YYYY-MM-DD"
-tags: [supersystem, context]
+tags: [suprasystem, context]
 related: []
 fpf_principles: []
 ---

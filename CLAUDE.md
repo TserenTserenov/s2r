@@ -16,6 +16,10 @@
 
 **First Principles Framework** — это "операционная система для мышления", архитектура трансдисциплинарного рассуждения. FPF не методология, а **эпистема метода** — структурированная спецификация того, как думать.
 
+### Принцип терминологии
+
+> **ВАЖНО:** Основные термины SRT-метода берутся из FPF и системного мышления. При использовании терминов следуй канонической терминологии FPF.
+
 ### Ключевые концепции FPF
 
 | Концепция | Паттерн | Описание |
@@ -71,27 +75,34 @@ SRT организует знания через **таблицу 3×3** (9 се
                      Предприниматель  Инженер           Менеджер
                      (Зачем?)         (Как устроено?)   (Как работает?)
 ┌────────────────────────────────────────────────────────────────────┐
-│ Supersystem        F1               F2                F3           │
+│ Suprasystem        F1               F2                F3           │
 │ (Надсистема)       Контекст         Окружение         Взаимодействие│
 ├────────────────────────────────────────────────────────────────────┤
-│ TargetSystem       F4               F5                F6           │
+│ System-of-Interest F4               F5                F6           │
 │ (Целевая система)  Требования       Архитектура       Реализация   │
 ├────────────────────────────────────────────────────────────────────┤
-│ CreationSystem     F7               F8                F9           │
-│ (Система создания) Принципы         Платформа         Команда      │
+│ Constructor        F7               F8                F9           │
+│ (Система-конструкт.)Принципы        Платформа         Команда      │
 └────────────────────────────────────────────────────────────────────┘
 
 + F0 (Management) — метасемейство, управляет логикой хранилища
 ```
+
+**Терминология систем (FPF):**
+| Русский термин | Английский термин (FPF) | Сокращение |
+|----------------|------------------------|------------|
+| Надсистема | Suprasystem (= Supersystem) | — |
+| Целевая система | System-of-Interest (= Target System) | SoI |
+| Система-конструктор | Constructor (= Constructor System) | — |
 
 ### Навигация по папкам
 
 | Система | Путь | Фокус |
 |---------|------|-------|
 | Management | `content/0.Management/` | Метасистема хранилища |
-| Supersystem | `content/1.Supersystem/` | Внешняя среда |
-| TargetSystem | `content/2.TargetSystem/` | Создаваемый продукт |
-| CreationSystem | `content/3.CreationSystem/` | Процесс создания |
+| Suprasystem | `content/1.Suprasystem/` | Внешняя среда (надсистема) |
+| System-of-Interest | `content/2.System-of-Interest/` | Создаваемый продукт (целевая система) |
+| Constructor | `content/3.Constructor/` | Система-конструктор |
 
 ### Роли (измерения)
 
@@ -179,7 +190,7 @@ type: doc                        # doc, spec, process, report
 status: active                   # stub, draft, active, archived
 created: 2026-01-07
 updated: 2026-01-07
-system: "Management"             # Management/Supersystem/TargetSystem/CreationSystem
+system: "Management"             # Management/Suprasystem/System-of-Interest/Constructor
 role: "Предприниматель"          # Предприниматель/Инженер/Менеджер
 layer: methodology               # methodology, architecture, operations
 scope: local-edge                # local-edge, project, ecosystem
@@ -203,8 +214,8 @@ content/{N}.{System}/{N}.{M}.{Role}/document-name.md
 
 Примеры:
 - `content/0.Management/0.1.Meaning/project-vision.md`
-- `content/2.TargetSystem/2.2.Architecture/api-schema.md`
-- `content/3.CreationSystem/3.3.Operations/ci-cd-pipeline.md`
+- `content/2.System-of-Interest/2.2.Architecture/api-schema.md`
+- `content/3.Constructor/3.3.Operations/ci-cd-pipeline.md`
 
 ## Принципы работы Claude
 

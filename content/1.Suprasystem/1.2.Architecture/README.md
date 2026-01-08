@@ -1,9 +1,9 @@
 ---
-system: "Supersystem"
+system: "Suprasystem"
 role: "Инженер"
 title: "Архитектура надсистемы: внешнее окружение"
 date: "2026-01-07"
-tags: [supersystem, architecture, environment]
+tags: [suprasystem, architecture, environment]
 status: "template"
 related: []
 fpf_principles:
@@ -29,11 +29,11 @@ fpf_principles:
 
 ```markdown
 ---
-system: "Supersystem"
+system: "Suprasystem"
 role: "Инженер"
 title: "Название документа"
 date: "YYYY-MM-DD"
-tags: [supersystem, integration]
+tags: [suprasystem, integration]
 related: []
 fpf_principles: []
 ---

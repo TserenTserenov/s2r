@@ -1,9 +1,9 @@
 ---
-system: "Supersystem"
+system: "Suprasystem"
 role: "Менеджер"
 title: "Операции надсистемы: взаимодействие с окружением"
 date: "2026-01-07"
-tags: [supersystem, operations, interactions]
+tags: [suprasystem, operations, interactions]
 status: "template"
 related: []
 fpf_principles:
@@ -29,11 +29,11 @@ fpf_principles:
 
 ```markdown
 ---
-system: "Supersystem"
+system: "Suprasystem"
 role: "Менеджер"
 title: "Название документа"
 date: "YYYY-MM-DD"
-tags: [supersystem, process]
+tags: [suprasystem, process]
 related: []
 fpf_principles: []
 ---
