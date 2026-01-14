@@ -52,7 +52,9 @@ s2r/
 │   └── 03-systems-hierarchy.md
 ├── 0.4.Plans-and-Meetings/      # Планирование и совещания
 ├── 0.5.AI-Reports/              # Автоматические отчёты
-├── 0.6.FPF-Integration/         # Интеграция с FPF
+├── 0.6.Roles-Matrix-3x3/        # Матрица ролей 3×3
+│   └── roles-matrix.md
+├── 0.7.FPF-Integration/         # Интеграция с FPF
 │   ├── fpf/                     # Копия спецификации FPF
 │   ├── fpf-integration.md
 │   └── fpf-patterns-map.md

@@ -46,7 +46,7 @@ fpf/
 
 ```bash
 curl -sL "https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md" \
-  -o 0.OPS/0.6.FPF-Integration/fpf/FPF-Spec.md
+  -o 0.OPS/0.7.FPF-Integration/fpf/FPF-Spec.md
 ```
 
 ## Связь S2R и FPF

@@ -369,6 +369,6 @@ fpf_patterns:
 
 ## См. также
 
-- [02-document-families.md](02-document-families.md) — семейства документов F1-F9
-- [01-kernels-model.md](01-kernels-model.md) — модель ядер
-- [../CLAUDE.md](../CLAUDE.md) — инструкции для Claude Code
+- [02-document-families.md](../0.1.Knowledge-Logic/02-document-families.md) — семейства документов F1-F9
+- [01-kernels-model.md](../0.1.Knowledge-Logic/01-kernels-model.md) — модель ядер
+- [CLAUDE.md](../CLAUDE.md) — инструкции для Claude Code

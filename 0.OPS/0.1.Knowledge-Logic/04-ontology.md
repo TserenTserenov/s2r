@@ -255,4 +255,4 @@ X3 — это **система создания X2**, а не описание �
 - [05-glossary.md](05-glossary.md) — глоссарий терминов
 - [01-kernels-model.md](01-kernels-model.md) — модель ядер
 - [02-document-families.md](02-document-families.md) — семейства документов
-- [../0.6.FPF-Integration/fpf/INDEX.md](../0.6.FPF-Integration/fpf/INDEX.md) — локальные принципы FPF
+- [../0.7.FPF-Integration/fpf/INDEX.md](../0.7.FPF-Integration/fpf/INDEX.md) — локальные принципы FPF

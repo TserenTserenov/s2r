@@ -27,7 +27,8 @@ SRR (Systems–Roles Repository): a multi-kernel systems×roles (3×3) project r
 | [02-document-families.md](0.OPS/0.1.Knowledge-Logic/02-document-families.md) | 9 семейств документов F1-F9 |
 | [03-our-systems-map.md](0.OPS/0.1.Knowledge-Logic/03-our-systems-map.md) | Карта систем проекта |
 | [01-value-chain.md](0.OPS/0.3.Kernels-Bridge/01-value-chain.md) | Цепочка создания ценности |
-| [fpf-integration.md](0.OPS/0.6.FPF-Integration/fpf-integration.md) | Интеграция с FPF |
+| [fpf-integration.md](0.OPS/0.7.FPF-Integration/fpf-integration.md) | Интеграция с FPF |
+| [roles-matrix.md](0.OPS/0.6.Roles-Matrix-3x3/roles-matrix.md) | Матрица ролей 3×3 |
 
 ---
 
@@ -184,7 +185,9 @@ s2r/
 │   │   └── 01-value-chain.md        # ⭐ Цепочка ценности
 │   ├── 0.4.Plans-and-Meetings/      # Планирование
 │   ├── 0.5.AI-Reports/              # Автоматические отчёты
-│   ├── 0.6.FPF-Integration/         # ⭐ Интеграция с FPF
+│   ├── 0.6.Roles-Matrix-3x3/        # ⭐ Матрица ролей 3×3
+│   │   └── roles-matrix.md
+│   ├── 0.7.FPF-Integration/         # ⭐ Интеграция с FPF
 │   │   ├── fpf/                     # Копия FPF-Spec
 │   │   ├── fpf-integration.md
 │   │   └── fpf-patterns-map.md
