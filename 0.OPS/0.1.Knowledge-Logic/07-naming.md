@@ -55,11 +55,13 @@ X1.3.Operations/
 ### Уровень F0
 
 ```
-0.1.Knowledge-Logic/         # Функциональная область
-0.2.Repository-Processes/
-0.3.Kernels-Bridge/
-0.4.Plans-and-Meetings/
-0.5.AI-Reports/
+0.1.Knowledge-Logic/         # Онтология и модель знаний
+0.2.Kernels-Bridge/          # Связи между ядрами
+0.3.Roles-Matrix-3x3/        # Матрица ролей 3×3
+0.4.FPF-Integration/         # Интеграция с FPF
+0.5.AI-Reports/              # Автоматические отчёты
+0.6.Repository-Processes/    # Процессы и стандарты
+0.7.Plans-and-Meetings/      # Планирование
 0.9.Inbox/
 0.99.Archive/
 ```
@@ -129,4 +131,4 @@ B.Our-System/B3.Constructor/B3.3.Operations/team-structure.md
 ## См. также
 
 - [06-taxonomy.md](06-taxonomy.md) — классификация документов
-- [../0.2.Repository-Processes/standards.md](../0.2.Repository-Processes/standards.md) — стандарты
+- [../0.6.Repository-Processes/standards.md](../0.6.Repository-Processes/standards.md) — стандарты

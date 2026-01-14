@@ -36,7 +36,20 @@ s2r/
 │   ├── 05-glossary.md
 │   ├── 06-taxonomy.md
 │   └── 07-naming.md
-├── 0.2.Repository-Processes/    # Процессы и стандарты
+├── 0.2.Kernels-Bridge/          # Связи между ядрами
+│   ├── README.md
+│   ├── 01-value-chain.md
+│   ├── 02-kernels-relations.md
+│   └── 03-systems-hierarchy.md
+├── 0.3.Roles-Matrix-3x3/        # Матрица ролей 3×3
+│   ├── roles-matrix.md          # Полная версия
+│   └── roles-matrix-brief.md    # Краткая версия
+├── 0.4.FPF-Integration/         # Интеграция с FPF
+│   ├── fpf/                     # Копия спецификации FPF
+│   ├── fpf-integration.md
+│   └── fpf-patterns-map.md
+├── 0.5.AI-Reports/              # Автоматические отчёты
+├── 0.6.Repository-Processes/    # Процессы и стандарты
 │   ├── README.md
 │   ├── 01-project-description-template.md
 │   ├── 02-standards.md
@@ -45,20 +58,7 @@ s2r/
 │   ├── 05-frontmatter-spec.md
 │   ├── 06-workflows.md
 │   └── 07-roles.md
-├── 0.3.Kernels-Bridge/          # Связи между ядрами
-│   ├── README.md
-│   ├── 01-value-chain.md
-│   ├── 02-kernels-relations.md
-│   └── 03-systems-hierarchy.md
-├── 0.4.Plans-and-Meetings/      # Планирование и совещания
-├── 0.5.AI-Reports/              # Автоматические отчёты
-├── 0.6.Roles-Matrix-3x3/        # Матрица ролей 3×3
-│   ├── roles-matrix.md          # Полная версия
-│   └── roles-matrix-brief.md    # Краткая версия
-├── 0.7.FPF-Integration/         # Интеграция с FPF
-│   ├── fpf/                     # Копия спецификации FPF
-│   ├── fpf-integration.md
-│   └── fpf-patterns-map.md
+├── 0.7.Plans-and-Meetings/      # Планирование и совещания
 ├── 0.9.Inbox/                   # Входящие идеи и предложения
 └── 0.99.Archive/                # Архив
 ```

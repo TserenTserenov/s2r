@@ -210,7 +210,7 @@ TODO: Нарисуйте карту систем вашего проекта
 2. Выбери букву (B, C, D...)
 3. Создай структуру папок (см. [01-kernels-model.md](01-kernels-model.md))
 4. Обнови эту карту
-5. Обнови [value-chain.md](../0.3.Kernels-Bridge/value-chain.md)
+5. Обнови [value-chain.md](../0.2.Kernels-Bridge/value-chain.md)
 
 ## Шаблон описания системы
 
@@ -257,5 +257,5 @@ TODO: Нарисуйте карту систем вашего проекта
 ## См. также
 
 - [01-kernels-model.md](01-kernels-model.md) — как создавать ядра
-- [../0.3.Kernels-Bridge/value-chain.md](../0.3.Kernels-Bridge/value-chain.md) — цепочка ценности
-- [../0.3.Kernels-Bridge/kernels-relations.md](../0.3.Kernels-Bridge/kernels-relations.md) — матрица связей
+- [../0.2.Kernels-Bridge/value-chain.md](../0.2.Kernels-Bridge/value-chain.md) — цепочка ценности
+- [../0.2.Kernels-Bridge/kernels-relations.md](../0.2.Kernels-Bridge/kernels-relations.md) — матрица связей

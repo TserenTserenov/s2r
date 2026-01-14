@@ -294,4 +294,4 @@ A.Target/                       # Абстрактно
 
 - [01-kernels-model.md](01-kernels-model.md) — что такое ядро
 - [04-ontology.md](04-ontology.md) — общая онтология
-- [../0.2.Repository-Processes/standards.md](../0.2.Repository-Processes/standards.md) — стандарты оформления
+- [../0.6.Repository-Processes/standards.md](../0.6.Repository-Processes/standards.md) — стандарты оформления

@@ -108,4 +108,4 @@ scope: repository
 ## См. также
 
 - [../0.9.Inbox/README.md](../0.9.Inbox/README.md) — входящие предложения
-- [../0.2.Repository-Processes/workflows.md](../0.2.Repository-Processes/workflows.md) — рабочие процессы
+- [../0.6.Repository-Processes/workflows.md](../0.6.Repository-Processes/workflows.md) — рабочие процессы

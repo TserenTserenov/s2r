@@ -37,7 +37,7 @@ stub → draft → active → archived
    └── 0.1.Knowledge-Logic/our-systems-map.md
 
 6. Обнови цепочку ценности
-   └── 0.3.Kernels-Bridge/value-chain.md
+   └── 0.2.Kernels-Bridge/value-chain.md
 ```
 
 ## Процесс ревью документа

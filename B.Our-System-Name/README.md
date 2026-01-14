@@ -158,6 +158,6 @@ B. {Our-System-1} ◄── вы здесь
 ## См. также
 
 - [../0.OPS/0.1.Knowledge-Logic/01-kernels-model.md](../0.OPS/0.1.Knowledge-Logic/01-kernels-model.md) — модель ядер
-- [../0.OPS/0.3.Kernels-Bridge/value-chain.md](../0.OPS/0.3.Kernels-Bridge/value-chain.md) — цепочка ценности
+- [../0.OPS/0.2.Kernels-Bridge/value-chain.md](../0.OPS/0.2.Kernels-Bridge/value-chain.md) — цепочка ценности
 - [../0.OPS/0.1.Knowledge-Logic/03-our-systems-map.md](../0.OPS/0.1.Knowledge-Logic/03-our-systems-map.md) — карта систем
 - [../A.SOI-Name/README.md](../A.SOI-Name/README.md) — ядро A

@@ -26,9 +26,9 @@ SRR (Systems–Roles Repository): a multi-kernel systems×roles (3×3) project r
 | [01-kernels-model.md](0.OPS/0.1.Knowledge-Logic/01-kernels-model.md) | Как создавать ядра, правила именования |
 | [02-document-families.md](0.OPS/0.1.Knowledge-Logic/02-document-families.md) | 9 семейств документов F1-F9 |
 | [03-our-systems-map.md](0.OPS/0.1.Knowledge-Logic/03-our-systems-map.md) | Карта систем проекта |
-| [01-value-chain.md](0.OPS/0.3.Kernels-Bridge/01-value-chain.md) | Цепочка создания ценности |
-| [fpf-integration.md](0.OPS/0.7.FPF-Integration/fpf-integration.md) | Интеграция с FPF |
-| [roles-matrix.md](0.OPS/0.6.Roles-Matrix-3x3/roles-matrix.md) | Матрица ролей 3×3 |
+| [01-value-chain.md](0.OPS/0.2.Kernels-Bridge/01-value-chain.md) | Цепочка создания ценности |
+| [fpf-integration.md](0.OPS/0.4.FPF-Integration/fpf-integration.md) | Интеграция с FPF |
+| [roles-matrix.md](0.OPS/0.3.Roles-Matrix-3x3/roles-matrix.md) | Матрица ролей 3×3 |
 
 ---
 
@@ -140,9 +140,9 @@ A.Target-System/                # Абстрактно
 | **2.X. Целевая система** | FX4: Визионер ЦС | FX5: Инженер ЦС | FX6: Оператор ЦС |
 | **3.X. Система создания** | FX7: Бизнесмен | FX8: Организатор разработки | FX9: Администратор |
 
-> **Полное описание ролей с методами и метриками:** [roles-matrix.md](0.OPS/0.6.Roles-Matrix-3x3/roles-matrix.md)
+> **Полное описание ролей с методами и метриками:** [roles-matrix.md](0.OPS/0.3.Roles-Matrix-3x3/roles-matrix.md)
 >
-> **Краткая версия:** [roles-matrix-brief.md](0.OPS/0.6.Roles-Matrix-3x3/roles-matrix-brief.md)
+> **Краткая версия:** [roles-matrix-brief.md](0.OPS/0.3.Roles-Matrix-3x3/roles-matrix-brief.md)
 
 ## F0 (0.OPS): Метаэпистема хранилища
 
@@ -174,19 +174,19 @@ s2r/
 │   │   ├── 05-glossary.md
 │   │   ├── 06-taxonomy.md
 │   │   └── 07-naming.md             # ⭐ Правила именования
-│   ├── 0.2.Repository-Processes/    # Стандарты, процессы
-│   │   └── 01-project-description-template.md  # ⭐ Шаблон описания проекта
-│   ├── 0.3.Kernels-Bridge/          # Связи между ядрами
+│   ├── 0.2.Kernels-Bridge/          # Связи между ядрами
 │   │   └── 01-value-chain.md        # ⭐ Цепочка ценности
-│   ├── 0.4.Plans-and-Meetings/      # Планирование
-│   ├── 0.5.AI-Reports/              # Автоматические отчёты
-│   ├── 0.6.Roles-Matrix-3x3/        # ⭐ Матрица ролей 3×3
+│   ├── 0.3.Roles-Matrix-3x3/        # ⭐ Матрица ролей 3×3
 │   │   ├── roles-matrix.md          # Полная версия
 │   │   └── roles-matrix-brief.md    # Краткая версия
-│   ├── 0.7.FPF-Integration/         # ⭐ Интеграция с FPF
+│   ├── 0.4.FPF-Integration/         # ⭐ Интеграция с FPF
 │   │   ├── fpf/                     # Копия FPF-Spec
 │   │   ├── fpf-integration.md
 │   │   └── fpf-patterns-map.md
+│   ├── 0.5.AI-Reports/              # Автоматические отчёты
+│   ├── 0.6.Repository-Processes/    # Стандарты, процессы
+│   │   └── 01-project-description-template.md  # ⭐ Шаблон описания проекта
+│   ├── 0.7.Plans-and-Meetings/      # Планирование
 │   ├── 0.9.Inbox/                   # Входящие идеи
 │   ├── 0.99.Archive/                # Архив
 │   └── CLAUDE.md                    # ⭐ Инструкции для AI
@@ -251,7 +251,7 @@ Claude Code автоматически прочитает `CLAUDE.md` и буд�
 ### 0.5. Опишите свой проект
 
 Перед развёртыванием заполните шаблон описания проекта:
-- [01-project-description-template.md](0.OPS/0.2.Repository-Processes/01-project-description-template.md)
+- [01-project-description-template.md](0.OPS/0.6.Repository-Processes/01-project-description-template.md)
 
 Шаблон поможет определить:
 - **Целевую систему** (что создаём) → станет Ядром A
@@ -298,7 +298,7 @@ mv A.Impressed-Customer/A3.Constructor-Name A.Impressed-Customer/A3.Product-Ecos
 
 Заполните файлы в `0.OPS/`:
 - `0.1.Knowledge-Logic/03-our-systems-map.md`
-- `0.3.Kernels-Bridge/value-chain.md`
+- `0.2.Kernels-Bridge/value-chain.md`
 
 ---
 

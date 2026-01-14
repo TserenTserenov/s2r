@@ -69,4 +69,4 @@ scope: repository
 ## См. также
 
 - [04-ontology.md](04-ontology.md) — полная онтология
-- [../0.7.FPF-Integration/fpf/INDEX.md](../0.7.FPF-Integration/fpf/INDEX.md) — принципы FPF
+- [../0.4.FPF-Integration/fpf/INDEX.md](../0.4.FPF-Integration/fpf/INDEX.md) — принципы FPF

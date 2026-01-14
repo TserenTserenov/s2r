@@ -215,7 +215,7 @@ A.Customer-Success/          # Целевая система
 ### Вывод из примера
 
 1. **Ядро = перспектива команды** — каждая команда работает со своим ядром
-2. **Связи обязательны** — ядра не изолированы, их связи описаны в `0.3.Kernels-Bridge/`
+2. **Связи обязательны** — ядра не изолированы, их связи описаны в `0.2.Kernels-Bridge/`
 3. **Онтология требует согласования** — команды должны договориться о терминах
 4. **Глубина может быть любой** — проект может иметь 2, 3, 4+ уровней ядер
 
@@ -344,7 +344,7 @@ B.Ecosystem/
 |---------------|-----|--------|
 | **Роль подсистем в целом** | В X2 родительской системы (FX5) | Архитектура целого |
 | **Устройство подсистемы** | В X2 подсистемы (отдельное ядро) | Своя перспектива |
-| **Стыки между ядрами** | 0.OPS/0.3.Kernels-Bridge/ + FX3 | Интеграция |
+| **Стыки между ядрами** | 0.OPS/0.2.Kernels-Bridge/ + FX3 | Интеграция |
 
 ### Пример: Экосистема с подсистемами
 
@@ -370,7 +370,7 @@ D.Subsystem-2/                    # Ещё одна подсистема
 ### Реестр стыков
 
 Стыки между ядрами фиксируются в:
-- `0.OPS/0.3.Kernels-Bridge/02-kernels-relations.md` — матрица связей
+- `0.OPS/0.2.Kernels-Bridge/02-kernels-relations.md` — матрица связей
 - `{X}1.3.Operations/` (FX3) — взаимодействие с надсистемой
 
 ---
@@ -494,8 +494,8 @@ mkdir -p C.Recommendation-Engine/C3.ML-Team/C3.{1,2,3}.{Meaning,Architecture,Ope
 ### Шаг 6: Обнови связи
 
 1. Обнови [03-our-systems-map.md](03-our-systems-map.md)
-2. Обнови [../0.3.Kernels-Bridge/value-chain.md](../0.3.Kernels-Bridge/value-chain.md)
-3. Обнови [../0.3.Kernels-Bridge/kernels-relations.md](../0.3.Kernels-Bridge/kernels-relations.md)
+2. Обнови [../0.2.Kernels-Bridge/value-chain.md](../0.2.Kernels-Bridge/value-chain.md)
+3. Обнови [../0.2.Kernels-Bridge/kernels-relations.md](../0.2.Kernels-Bridge/kernels-relations.md)
 
 ## Когда создавать новое ядро?
 
@@ -526,7 +526,7 @@ mkdir -p C.Recommendation-Engine/C3.ML-Team/C3.{1,2,3}.{Meaning,Architecture,Ope
 
 ## Связи между ядрами
 
-Связи описываются в `0.3.Kernels-Bridge/`:
+Связи описываются в `0.2.Kernels-Bridge/`:
 - `value-chain.md` — цепочка создания ценности
 - `kernels-relations.md` — матрица связей
 - `systems-hierarchy.md` — иерархия вложенности
@@ -544,4 +544,4 @@ mkdir -p C.Recommendation-Engine/C3.ML-Team/C3.{1,2,3}.{Meaning,Architecture,Ope
 
 - [02-document-families.md](02-document-families.md) — 9 семейств внутри ядра
 - [03-our-systems-map.md](03-our-systems-map.md) — карта наших систем
-- [../0.3.Kernels-Bridge/value-chain.md](../0.3.Kernels-Bridge/value-chain.md) — цепочка ценности
+- [../0.2.Kernels-Bridge/value-chain.md](../0.2.Kernels-Bridge/value-chain.md) — цепочка ценности
