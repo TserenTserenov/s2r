@@ -541,7 +541,7 @@ mkdir -p C.Recommendation-Engine/C3.ML-Team/C3.{1,2,3}.{Meaning,Architecture,Ope
 Связи описываются в `0.2.Kernels-Bridge/`:
 - `01-value-chain.md` — цепочка создания ценности
 - `02-kernels-relations.md` — матрица связей
-- `03-systems-hierarchy.md` — иерархия вложенности
+- `03-systems-relations.md` — структура связанности систем
 
 ## Связь с FPF
 

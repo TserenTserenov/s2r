@@ -42,7 +42,7 @@ s2r/
 │   ├── README.md
 │   ├── 01-value-chain.md
 │   ├── 02-kernels-relations.md
-│   └── 03-systems-hierarchy.md
+│   └── 03-systems-relations.md  # Структура связанности систем
 ├── 0.3.Roles-Matrix-3x3/        # Матрица ролей 3×3
 │   ├── roles-matrix.md          # Полная версия
 │   └── roles-matrix-brief.md    # Краткая версия
