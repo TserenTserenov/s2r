@@ -7,7 +7,7 @@ family: F0
 scope: repository
 ---
 
-# 0.2. Repository Processes
+# 0.6. Repository Processes
 
 Процессы и стандарты работы с хранилищем.
 

@@ -35,7 +35,8 @@ s2r/
 │   ├── 04-ontology.md
 │   ├── 05-glossary.md
 │   ├── 06-taxonomy.md
-│   └── 07-naming.md
+│   ├── 07-naming.md
+│   └── 08-anti-patterns.md
 ├── 0.2.Kernels-Bridge/          # Связи между ядрами
 │   ├── README.md
 │   ├── 01-value-chain.md

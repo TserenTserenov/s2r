@@ -233,9 +233,11 @@ X3 = Система создания X2 (создатель/развитие н�
 │   ├── 01-kernels-model.md        # ⭐ Модель ядер
 │   ├── 02-document-families.md    # ⭐ Модель семейств F1-F9
 │   ├── 03-our-systems-map.md      # ⭐ Карта "наших систем"
-│   ├── 04-ontology.md             # Общая онтология
-│   ├── 05-glossary.md             # Глоссарий
-│   └── 08-anti-patterns.md        # Анти-паттерны
+│   ├── 04-ontology.md             # ⭐ Общая онтология (запреты, термины)
+│   ├── 05-glossary.md             # ⭐ Глоссарий терминов
+│   ├── 06-taxonomy.md             # Таксономия документов
+│   ├── 07-naming.md               # Соглашения об именовании
+│   └── 08-anti-patterns.md        # ⭐ Анти-паттерны (типичные ошибки)
 ├── 0.2.Kernels-Bridge/            # Связи между ядрами
 │   ├── 01-value-chain.md          # ⭐ Цепочка ценности
 │   └── 02-kernels-relations.md    # Матрица связей
@@ -332,8 +334,11 @@ role: Meaning                    # Meaning, Architecture, Operations
 | Модель ядер | [01-kernels-model.md](0.1.Knowledge-Logic/01-kernels-model.md) |
 | Семейства F1-F9 | [02-document-families.md](0.1.Knowledge-Logic/02-document-families.md) |
 | Карта систем | [03-our-systems-map.md](0.1.Knowledge-Logic/03-our-systems-map.md) |
+| **Онтология** | [04-ontology.md](0.1.Knowledge-Logic/04-ontology.md) |
+| **Глоссарий** | [05-glossary.md](0.1.Knowledge-Logic/05-glossary.md) |
+| Именование | [07-naming.md](0.1.Knowledge-Logic/07-naming.md) |
+| Анти-паттерны | [08-anti-patterns.md](0.1.Knowledge-Logic/08-anti-patterns.md) |
 | Цепочка ценности | [01-value-chain.md](0.2.Kernels-Bridge/01-value-chain.md) |
 | Матрица ролей (полная) | [roles-matrix.md](0.3.Roles-Matrix-3x3/roles-matrix.md) |
 | Матрица ролей (краткая) | [roles-matrix-brief.md](0.3.Roles-Matrix-3x3/roles-matrix-brief.md) |
 | Интеграция с FPF | [fpf-integration.md](0.4.FPF-Integration/fpf-integration.md) |
-| Анти-паттерны | [08-anti-patterns.md](0.1.Knowledge-Logic/08-anti-patterns.md) |
