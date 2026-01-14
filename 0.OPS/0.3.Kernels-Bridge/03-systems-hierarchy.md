@@ -83,6 +83,6 @@ scope: repository
 
 ## См. также
 
-- [value-chain.md](value-chain.md) — цепочка ценности
-- [kernels-relations.md](kernels-relations.md) — матрица связей
+- [01-value-chain.md](01-value-chain.md) — цепочка ценности
+- [02-kernels-relations.md](02-kernels-relations.md) — матрица связей
 - [../0.1.Knowledge-Logic/01-kernels-model.md](../0.1.Knowledge-Logic/01-kernels-model.md) — модель ядер

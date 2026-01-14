@@ -217,11 +217,11 @@ C. Backend/ D. CMS/  E. ML-Recs/
 
 | Документ | Связь |
 |----------|-------|
-| [kernels-relations.md](kernels-relations.md) | Детали связей между ядрами |
-| [systems-hierarchy.md](systems-hierarchy.md) | Иерархия вложенности |
+| [02-kernels-relations.md](02-kernels-relations.md) | Детали связей между ядрами |
+| [03-systems-hierarchy.md](03-systems-hierarchy.md) | Иерархия вложенности |
 | [../0.1.Knowledge-Logic/03-our-systems-map.md](../0.1.Knowledge-Logic/03-our-systems-map.md) | Карта всех систем |
 
 ## См. также
 
 - [../0.1.Knowledge-Logic/01-kernels-model.md](../0.1.Knowledge-Logic/01-kernels-model.md) — модель ядер
-- [kernels-relations.md](kernels-relations.md) — матрица связей
+- [02-kernels-relations.md](02-kernels-relations.md) — матрица связей

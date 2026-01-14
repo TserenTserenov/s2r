@@ -48,7 +48,7 @@ F0 **не делится по ролям** (Предприниматель/Ин�
 | [02-document-families.md](0.1.Knowledge-Logic/02-document-families.md) | 0.1 | Модель 9 семейств внутри каждого ядра |
 | [03-our-systems-map.md](0.1.Knowledge-Logic/03-our-systems-map.md) | 0.1 | Карта "наших систем" |
 | [04-ontology.md](0.1.Knowledge-Logic/04-ontology.md) | 0.1 | Общая онтология |
-| [value-chain.md](0.3.Kernels-Bridge/value-chain.md) | 0.3 | Цепочка создания ценности |
+| [01-value-chain.md](0.3.Kernels-Bridge/01-value-chain.md) | 0.3 | Цепочка создания ценности |
 | [fpf-integration.md](0.6.FPF-Integration/fpf-integration.md) | 0.6 | Интеграция с FPF |
 
 ## Связи

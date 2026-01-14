@@ -71,5 +71,5 @@ scope: repository
 
 ## См. также
 
-- [value-chain.md](value-chain.md) — цепочка ценности
-- [systems-hierarchy.md](systems-hierarchy.md) — иерархия систем
+- [01-value-chain.md](01-value-chain.md) — цепочка ценности
+- [03-systems-hierarchy.md](03-systems-hierarchy.md) — иерархия систем

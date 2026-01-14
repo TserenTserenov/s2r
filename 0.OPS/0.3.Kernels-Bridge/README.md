@@ -15,9 +15,9 @@ scope: repository
 
 | Документ | Описание |
 |----------|----------|
-| [value-chain.md](value-chain.md) | Цепочка создания ценности |
-| [kernels-relations.md](kernels-relations.md) | Матрица связей между ядрами |
-| [systems-hierarchy.md](systems-hierarchy.md) | Иерархия систем |
+| [01-value-chain.md](01-value-chain.md) | Цепочка создания ценности |
+| [02-kernels-relations.md](02-kernels-relations.md) | Матрица связей между ядрами |
+| [03-systems-hierarchy.md](03-systems-hierarchy.md) | Иерархия систем |
 
 ## Назначение
 

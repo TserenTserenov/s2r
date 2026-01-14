@@ -15,15 +15,17 @@ scope: repository
 
 | Документ | Описание |
 |----------|----------|
-| [standards.md](standards.md) | Стандарты оформления документов |
-| [structure.md](structure.md) | Структура папок репозитория |
-| [document-creation.md](document-creation.md) | Процесс создания документов |
-| [frontmatter-spec.md](frontmatter-spec.md) | Спецификация метаданных |
-| [workflows.md](workflows.md) | Рабочие процессы |
-| [roles.md](roles.md) | Роли и ответственность |
+| [01-project-description-template.md](01-project-description-template.md) | ⭐ Шаблон описания проекта (первый шаг) |
+| [02-standards.md](02-standards.md) | Стандарты оформления документов |
+| [03-structure.md](03-structure.md) | Структура папок репозитория |
+| [04-document-creation.md](04-document-creation.md) | Процесс создания документов |
+| [05-frontmatter-spec.md](05-frontmatter-spec.md) | Спецификация метаданных |
+| [06-workflows.md](06-workflows.md) | Рабочие процессы |
+| [07-roles.md](07-roles.md) | Роли и ответственность |
 
 ## Быстрый старт
 
-1. Прочитай [standards.md](standards.md) — как оформлять
-2. Используй [document-creation.md](document-creation.md) — как создавать
-3. Следуй [frontmatter-spec.md](frontmatter-spec.md) — метаданные
+1. Заполни [01-project-description-template.md](01-project-description-template.md) — опиши проект
+2. Прочитай [02-standards.md](02-standards.md) — как оформлять
+3. Используй [04-document-creation.md](04-document-creation.md) — как создавать
+4. Следуй [05-frontmatter-spec.md](05-frontmatter-spec.md) — метаданные

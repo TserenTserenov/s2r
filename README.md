@@ -26,7 +26,7 @@ SRR (Systems–Roles Repository): a multi-kernel systems×roles (3×3) project r
 | [01-kernels-model.md](0.OPS/0.1.Knowledge-Logic/01-kernels-model.md) | Как создавать ядра, правила именования |
 | [02-document-families.md](0.OPS/0.1.Knowledge-Logic/02-document-families.md) | 9 семейств документов F1-F9 |
 | [03-our-systems-map.md](0.OPS/0.1.Knowledge-Logic/03-our-systems-map.md) | Карта систем проекта |
-| [value-chain.md](0.OPS/0.3.Kernels-Bridge/value-chain.md) | Цепочка создания ценности |
+| [01-value-chain.md](0.OPS/0.3.Kernels-Bridge/01-value-chain.md) | Цепочка создания ценности |
 | [fpf-integration.md](0.OPS/0.6.FPF-Integration/fpf-integration.md) | Интеграция с FPF |
 
 ---
@@ -130,8 +130,9 @@ s2r/
 │   │   ├── 06-taxonomy.md
 │   │   └── 07-naming.md             # ⭐ Правила именования
 │   ├── 0.2.Repository-Processes/    # Стандарты, процессы
+│   │   └── 01-project-description-template.md  # ⭐ Шаблон описания проекта
 │   ├── 0.3.Kernels-Bridge/          # Связи между ядрами
-│   │   └── value-chain.md           # ⭐ Цепочка ценности
+│   │   └── 01-value-chain.md        # ⭐ Цепочка ценности
 │   ├── 0.4.Plans-and-Meetings/      # Планирование
 │   ├── 0.5.AI-Reports/              # Автоматические отчёты
 │   ├── 0.6.FPF-Integration/         # ⭐ Интеграция с FPF
@@ -160,7 +161,6 @@ s2r/
 ├── B.Our-System-Name/               # Ядро B: ШАБЛОН (переименовать!)
 │   └── ... (аналогичная структура)
 │
-├── templates/                       # Шаблоны документов
 ├── README.md                        # Этот файл
 └── CONTRIBUTING.md                  # Правила участия
 ```
@@ -199,6 +199,17 @@ git push origin main
 ```
 
 Claude Code автоматически прочитает `CLAUDE.md` и будет следовать правилам S2R.
+
+### 0.5. Опишите свой проект
+
+Перед развёртыванием заполните шаблон описания проекта:
+- [01-project-description-template.md](0.OPS/0.2.Repository-Processes/01-project-description-template.md)
+
+Шаблон поможет определить:
+- **Целевую систему** (что создаём) → станет Ядром A
+- **Надсистему** (в чём существует) → определит контекст
+- **Систему создания** (кто создаёт) → определит конструктора
+- **"Наши системы"** → станут Ядрами B, C, D...
 
 ### 1. Клонируйте репозиторий
 

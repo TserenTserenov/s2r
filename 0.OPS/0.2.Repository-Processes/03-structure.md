@@ -17,7 +17,6 @@ s2r/
 ├── A.SOI-Name/                  # Ядро A: Целевая система
 ├── B.Our-System-Name/           # Ядро B: Наша система
 ├── C.../                        # Ядра C, D... (по необходимости)
-├── templates/                   # Шаблоны документов
 ├── README.md                    # Описание проекта
 └── CONTRIBUTING.md              # Правила участия
 ```
@@ -38,16 +37,19 @@ s2r/
 │   ├── 06-taxonomy.md
 │   └── 07-naming.md
 ├── 0.2.Repository-Processes/    # Процессы и стандарты
-│   ├── standards.md
-│   ├── structure.md
-│   ├── document-creation.md
-│   ├── frontmatter-spec.md
-│   ├── workflows.md
-│   └── roles.md
+│   ├── README.md
+│   ├── 01-project-description-template.md
+│   ├── 02-standards.md
+│   ├── 03-structure.md
+│   ├── 04-document-creation.md
+│   ├── 05-frontmatter-spec.md
+│   ├── 06-workflows.md
+│   └── 07-roles.md
 ├── 0.3.Kernels-Bridge/          # Связи между ядрами
-│   ├── value-chain.md
-│   ├── kernels-relations.md
-│   └── systems-hierarchy.md
+│   ├── README.md
+│   ├── 01-value-chain.md
+│   ├── 02-kernels-relations.md
+│   └── 03-systems-hierarchy.md
 ├── 0.4.Plans-and-Meetings/      # Планирование и совещания
 ├── 0.5.AI-Reports/              # Автоматические отчёты
 ├── 0.6.FPF-Integration/         # Интеграция с FPF

@@ -149,24 +149,26 @@ X.Kernel-Name/
 ```
 0.OPS/
 ├── 0.1.Knowledge-Logic/           # Онтология и модель знаний
-│   ├── kernels-model.md           # ⭐ Модель ядер
-│   ├── document-families.md       # ⭐ Модель семейств F1-F9
-│   ├── our-systems-map.md         # ⭐ Карта "наших систем"
-│   ├── ontology.md                # Общая онтология
-│   ├── glossary.md                # Глоссарий
-│   ├── taxonomy.md                # Таксономия
-│   └── naming.md                  # Соглашения об именовании
+│   ├── 00-readme.md
+│   ├── 01-kernels-model.md        # ⭐ Модель ядер
+│   ├── 02-document-families.md    # ⭐ Модель семейств F1-F9
+│   ├── 03-our-systems-map.md      # ⭐ Карта "наших систем"
+│   ├── 04-ontology.md             # Общая онтология
+│   ├── 05-glossary.md             # Глоссарий
+│   ├── 06-taxonomy.md             # Таксономия
+│   └── 07-naming.md               # Соглашения об именовании
 ├── 0.2.Repository-Processes/      # Процессы и стандарты
-│   ├── standards.md               # ⭐ Стандарты оформления
-│   ├── structure.md               # Структура папок
-│   ├── document-creation.md       # Создание документов
-│   ├── frontmatter-spec.md        # Спецификация метаданных
-│   ├── workflows.md               # Рабочие процессы
-│   └── roles.md                   # Роли и ответственность
+│   ├── 01-project-description-template.md  # ⭐ Шаблон описания проекта
+│   ├── 02-standards.md            # ⭐ Стандарты оформления
+│   ├── 03-structure.md            # Структура папок
+│   ├── 04-document-creation.md    # Создание документов
+│   ├── 05-frontmatter-spec.md     # Спецификация метаданных
+│   ├── 06-workflows.md            # Рабочие процессы
+│   └── 07-roles.md                # Роли и ответственность
 ├── 0.3.Kernels-Bridge/            # Связи между ядрами
-│   ├── value-chain.md             # ⭐ Цепочка ценности
-│   ├── kernels-relations.md       # Матрица связей
-│   └── systems-hierarchy.md       # Иерархия систем
+│   ├── 01-value-chain.md          # ⭐ Цепочка ценности
+│   ├── 02-kernels-relations.md    # Матрица связей
+│   └── 03-systems-hierarchy.md    # Иерархия систем
 ├── 0.4.Plans-and-Meetings/        # Планирование
 ├── 0.5.AI-Reports/                # Автоотчёты AI
 ├── 0.9.Inbox/                     # Входящие идеи
