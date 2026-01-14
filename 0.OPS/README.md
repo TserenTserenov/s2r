@@ -50,7 +50,8 @@ F0 **не делится по ролям** (Предприниматель/Ин�
 | [03-our-systems-map.md](0.1.Knowledge-Logic/03-our-systems-map.md) | 0.1 | Карта "наших систем" |
 | [04-ontology.md](0.1.Knowledge-Logic/04-ontology.md) | 0.1 | Общая онтология |
 | [01-value-chain.md](0.3.Kernels-Bridge/01-value-chain.md) | 0.3 | Цепочка создания ценности |
-| [roles-matrix.md](0.6.Roles-Matrix-3x3/roles-matrix.md) | 0.6 | Матрица ролей 3×3 |
+| [roles-matrix.md](0.6.Roles-Matrix-3x3/roles-matrix.md) | 0.6 | Матрица ролей 3×3 (полная) |
+| [roles-matrix-brief.md](0.6.Roles-Matrix-3x3/roles-matrix-brief.md) | 0.6 | Матрица ролей 3×3 (краткая) |
 | [fpf-integration.md](0.7.FPF-Integration/fpf-integration.md) | 0.7 | Интеграция с FPF |
 
 ## Связи

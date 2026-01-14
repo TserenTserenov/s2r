@@ -13,6 +13,8 @@ fpf_patterns:
 # Матрица ролей 3×3 (Roles Matrix)
 
 > **Для AI-агентов:** Этот документ определяет 9 проектных ролей и их области ответственности. Используйте для понимания, какие документы создавать и какие методы применять.
+>
+> **Краткая версия:** [roles-matrix-brief.md](roles-matrix-brief.md)
 
 ## Обзор матрицы
 
@@ -369,6 +371,7 @@ fpf_patterns:
 
 ## См. также
 
+- [roles-matrix-brief.md](roles-matrix-brief.md) — краткая версия матрицы
 - [02-document-families.md](../0.1.Knowledge-Logic/02-document-families.md) — семейства документов F1-F9
 - [01-kernels-model.md](../0.1.Knowledge-Logic/01-kernels-model.md) — модель ядер
 - [CLAUDE.md](../CLAUDE.md) — инструкции для Claude Code

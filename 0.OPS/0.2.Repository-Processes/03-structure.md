@@ -53,7 +53,8 @@ s2r/
 ├── 0.4.Plans-and-Meetings/      # Планирование и совещания
 ├── 0.5.AI-Reports/              # Автоматические отчёты
 ├── 0.6.Roles-Matrix-3x3/        # Матрица ролей 3×3
-│   └── roles-matrix.md
+│   ├── roles-matrix.md          # Полная версия
+│   └── roles-matrix-brief.md    # Краткая версия
 ├── 0.7.FPF-Integration/         # Интеграция с FPF
 │   ├── fpf/                     # Копия спецификации FPF
 │   ├── fpf-integration.md
