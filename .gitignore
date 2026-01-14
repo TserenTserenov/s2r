@@ -1,0 +1,12 @@
+# Claude Code local settings
+.claude/
+
+# Obsidian
+.obsidian/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
